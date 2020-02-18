@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  --grey-dark-black: #545454;
+  --grey-light: #e0e0e0;
+  --grey-dark: #666;
+  --green: #093;
+  --red: #D50000;
+  --yellow: #f90;
+  --text: #666;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+::selection {
+  background: var(--yellow);
+}
+
+.text-green {
+  color: var(--green);
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.row {
+  display: flex;
+}
